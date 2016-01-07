@@ -1,0 +1,24 @@
+/** {
+  border: 1px solid red;
+}*/
+
+.bg-image {
+  height: 400px;
+  background-image: url("../images/Liubo.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#name {
+  color: orange;
+  display: none;
+}
+
+#name p {
+  font-size: 53px;
+  margin-left: -20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#name p span{
+  color: red;
+}
