@@ -1,14 +1,22 @@
 body {
-  height: 1800px;
-  
+  height: 1800px;  
 }
+
 
 p {
   color: green;
 }
 
 .container-fluid {
-  /*background-image: url('../images/Black.png');*/
+  background-image: url("../images/Black.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*background: transparent;*/
+  position: absolute;
+ /* top: 0;
+  left: 0;*/
+  width: 100%;
+  height: 100%; 
 }
 
 .bg-image {
@@ -16,6 +24,7 @@ p {
   background-image: url("../images/MVimage.jpg");
   background-position: center center;
   background-size: cover;
+  
 }
 
 #name {
@@ -45,10 +54,10 @@ p {
 
 .parallax-window-1 {
   /*margin-top: 60px;*/
-    min-height: 300px;
+    min-height: 400px;
     background: transparent;
     position: relative;
-    top: 200px;
+    top: 0px;
     margin-top: 300px;
     /*z-index: 0;*/
 }
