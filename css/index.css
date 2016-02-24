@@ -1,18 +1,28 @@
 body {
   height: 1800px;  
+   background-image: url("../images/Black.png");
+   /*background-size: 100%;
+  background-repeat: no-repeat;
+  background: transparent;
+  position: absolute;*/
 }
 
 
-p {
+ p {
+  padding-top: 28px;
   color: green;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 17px;
+}
+
+span {
+  font-weight: bold ;
 }
 
 .container-fluid {
-  background-image: url("../images/Black.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /*background: transparent;*/
-  position: absolute;
+ 
+  
  /* top: 0;
   left: 0;*/
   width: 100%;
@@ -21,7 +31,7 @@ p {
 
 .bg-image {
   height: 400px;
-  background-image: url("../images/MVimage.jpg");
+  background-image: url("../images/long-point-five.jpg");
   background-position: center center;
   background-size: cover;
   
@@ -54,7 +64,7 @@ p {
 
 .parallax-window-1 {
   /*margin-top: 60px;*/
-    min-height: 400px;
+    min-height: 200px;
     background: transparent;
     position: relative;
     top: 0px;
@@ -75,3 +85,5 @@ p {
   background-image: url()
   
 }
+
+
