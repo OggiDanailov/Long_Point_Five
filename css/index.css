@@ -1,27 +1,35 @@
 body {
   height: 1800px;  
-   background-image: url("../images/Black.png");
+   /*background-image: url("../images/Black.png");*/
    /*background-size: 100%;
   background-repeat: no-repeat;
   background: transparent;
   position: absolute;*/
+  background-color: #ADD8E6;
 }
 
 
  p {
   padding-top: 28px;
-  color: green;
-  font-family: Arial;
-  font-style: italic;
-  font-size: 17px;
+  color: black;
+  font-family: 'Goudy Old Style', sans-serif;
+  font-size: 24px;
+}
+
+a {
+   color: black;
+  font-family: 'Goudy Old Style', sans-serif;
+  font-style: italic; 
+  font-weight: bold;
+  font-size: 28px;
 }
 
 span {
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .container-fluid {
- 
+ border: 1px solid red;
   
  /* top: 0;
   left: 0;*/
@@ -31,7 +39,7 @@ span {
 
 .bg-image {
   height: 400px;
-  background-image: url("../images/long-point-five.jpg");
+  background-image: url("../Pictures/IMG_1494.JPG");
   background-position: center center;
   background-size: cover;
   
@@ -43,9 +51,9 @@ span {
 }
 
 #name p {
-  font-size: 53px;
+  font-size: 56px;
   margin-left: -20px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Arial Black", cursive, sans-serif;
 }
 
 #name p span{
@@ -54,17 +62,17 @@ span {
 
 #about {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 #perf {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 .parallax-window-1 {
   /*margin-top: 60px;*/
-    min-height: 200px;
+    min-height: 450px;
     background: transparent;
     position: relative;
     top: 0px;
@@ -85,5 +93,20 @@ span {
   background-image: url()
   
 }
+
+.col-xs-12 {
+  height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
